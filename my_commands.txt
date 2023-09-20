@@ -1,0 +1,11 @@
+git clone https://github.com/adiaac/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice.git
+git checkout -b branch
+nano Degree\ Programs \ & \ Research \ Interests\ of\ Members.txt
+*add text: Stacy Chen: [degree + interests...]
+touch my_commands.txt
+nano my_commands.txt
+git add .
+git commit -m "add bio and commands"
+git push origin branch
+
