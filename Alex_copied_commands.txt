@@ -1,0 +1,25 @@
+(base) alex@Chauncey-s-S21-Ultra git % cd GitHub-Collaboration-Practice
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % ls
+Degree Programs & Research Interests of Members .txt
+README.md
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % git checkout -b new branch
+fatal: 'branch' is not a commit and a branch 'new' cannot be created from it
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % ls
+Degree Programs & Research Interests of Members .txt
+README.md
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % nano Degree\ Programs\ \&\ Research\ Interests\ of\ Members\ .txt
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % git add *
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % git commit -m "Alex changes to Degree Programs file"
+[main 438fcf4] Alex changes to Degree Programs file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 473 bytes | 473.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/adiaac/GitHub-Collaboration-Practice.git
+   48e6707..438fcf4  main -> main
+(base) alex@Chauncey-s-S21-Ultra GitHub-Collaboration-Practice % ls
+Degree Programs & Research Interests of Members .txt	README.md
