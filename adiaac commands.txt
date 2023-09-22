@@ -1,0 +1,7 @@
+git clone https://github.com/adiaac/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice.git
+touch Degree\ Programs \ & \ Research \ Interests\ of\ Members.txt
+nano Degree\ Programs \ & \ Research \ Interests\ of\ Members.txt
+git add *
+git commit -m "Adding degree programs and research interests file"
+git push
