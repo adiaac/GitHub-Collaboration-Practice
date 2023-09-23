@@ -1,0 +1,59 @@
+(base) MacBook-Pro-de-Jorge:GitHub jorgeantoniomorales$ git clone 
+https://github.com/adiaac/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 25 (delta 9), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (25/25), 4.80 KiB | 4.80 MiB/s, done.
+Resolving deltas: 100% (9/9), done.
+(base) MacBook-Pro-de-Jorge:GitHub jorgeantoniomorales$ cd 
+/Users/jorgeantoniomorales/Documents/GitHub/HP-CSS-Project1
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git checkout 
+-b new_branch
+Switched to a new branch 'new_branch'
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git merge 
+main
+merge: main - not something we can merge
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git checkout
+fatal: You are on a branch yet to be born
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git merge 
+master
+merge: master - not something we can merge
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ cd 
+/Users/jorgeantoniomorales/Documents/GitHub/GitHub-Collaboration-Practice.git
+-bash: cd: 
+/Users/jorgeantoniomorales/Documents/GitHub/GitHub-Collaboration-Practice.git: 
+No such file or directory
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ 
+/Users/jorgeantoniomorales/Documents/GitHub/GitHub-Collaboration-Practice
+-bash: 
+/Users/jorgeantoniomorales/Documents/GitHub/GitHub-Collaboration-Practice: is 
+a directory
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git checkout 
+-b new_branch
+Switched to a new branch 'new_branch'
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ git merge 
+main
+merge: main - not something we can merge
+(base) MacBook-Pro-de-Jorge:HP-CSS-Project1 jorgeantoniomorales$ cd 
+/Users/jorgeantoniomorales/Documents/GitHub/GitHub-Collaboration-Practice
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ git checkout -b new_branch
+Switched to a new branch 'new_branch'
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ git merge main
+Already up to date.
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ nano "Degree Programs & Research Interests of 
+Members".txt
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ git add  *
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ touch CodeJorge.txt
+(base) MacBook-Pro-de-Jorge:GitHub-Collaboration-Practice 
+jorgeantoniomorales$ nano CodeJorge.txt
+
+git add *
+git commit -m "Jorges code" 
+git push 
